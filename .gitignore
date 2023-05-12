@@ -1,0 +1,47 @@
+# ignore virtual environment
+venv
+
+# ignore node modules
+node_modules
+
+# ignore database and SQL
+*.sqlite3
+*.sql
+
+# ignore secrets JSON file
+secret*.json
+
+# ignore other directories
+inputs
+conversions
+outputs
+etc
+media
+/base/static
+
+# ignore pycache and pytest files
+__pycache__/
+*.pyc
+.pytest_cache
+
+# ignore Excel workbooks
+*.xlsx
+*.xlsb
+*.xls
+
+# ignore CSV files
+*.csv
+
+# ignore PDF files
+*.pdf
+
+# ignore OS files
+Thumbs.db
+.DS_Store
+
+# ignore distributable dir and egg info
+dist
+*egg-info
+
+# ignore docs build subdir
+docs/build
